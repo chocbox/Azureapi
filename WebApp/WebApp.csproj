@@ -3,7 +3,13 @@
     <TargetFramework>net461</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Ghostscript.NET" Version="1.2.1" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.8.4" />
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.13" />
+    <PackageReference Include="NPOI" Version="2.3.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.13.0" />
+    <PackageReference Include="SpecFlow" Version="2.3.2" />
+    <PackageReference Include="Tesseract" Version="3.0.2" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
